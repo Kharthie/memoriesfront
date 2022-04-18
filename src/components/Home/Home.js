@@ -66,6 +66,9 @@ const Home = () => {
               position="static"
               color="inherit"
             >
+              <img src="https://media.baamboozle.com/uploads/images/144797/1648591059_23345_gif-url.gif"></img>
+              {/* 🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂 */}
+              {/* ................♏Eⓜ🙂♈ℹ️E💲................ */}
               {/* <TextField
                 onKeyDown={handleKeyPress}
                 name="search"
