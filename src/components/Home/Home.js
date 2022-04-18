@@ -66,7 +66,7 @@ const Home = () => {
               position="static"
               color="inherit"
             >
-              <TextField
+              {/* <TextField
                 onKeyDown={handleKeyPress}
                 name="search"
                 variant="outlined"
@@ -90,7 +90,7 @@ const Home = () => {
                 color="primary"
               >
                 Search
-              </Button>
+              </Button> */}
             </AppBar>
             <Form currentId={currentId} setCurrentId={setCurrentId} />
             {!searchQuery && !tags.length && (
