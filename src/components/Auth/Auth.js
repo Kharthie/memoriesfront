@@ -77,24 +77,24 @@ const SignUp = () => {
             {isSignup && (
 
               <>
-                {/* <Input name="firstName" label="First Name" handleChange={handleChange} autoFocus half />
-              <Input name="lastName" label="Last Name" handleChange={handleChange} half />  */}
+                <Input name="firstName" label="First Name" handleChange={handleChange} autoFocus half />
+              <Input name="lastName" label="Last Name" handleChange={handleChange} half /> 
               </>
 
             )}
 
-             {/* <Input name="email" label="Email Address" handleChange={handleChange} type="email" /> 
-             <Input name="password" label="Password" handleChange={handleChange} type={showPassword ? 'text' : 'password'} handleShowPassword={handleShowPassword} />  */}
+             <Input name="email" label="Email Address" handleChange={handleChange} type="email" /> 
+             <Input name="password" label="Password" handleChange={handleChange} type={showPassword ? 'text' : 'password'} handleShowPassword={handleShowPassword} /> 
 
-             {/* { isSignup && <Input name="confirmPassword" label="Repeat Password" handleChange={handleChange} type="password" /> }  */}
+             { isSignup && <Input name="confirmPassword" label="Repeat Password" handleChange={handleChange} type="password" /> } 
 
           </Grid>
 
-           {/* <Button type="submit" fullWidth variant="contained" color="primary" className={classes.submit}>
+           <Button type="submit" fullWidth variant="contained" color="primary" className={classes.submit}>
             { isSignup ? 'Sign Up' : 'Sign In' }
-          </Button>  */}
+          </Button> 
 
-          <GoogleLogin
+          {/* <GoogleLogin
             clientId="564033717568-bu2nr1l9h31bhk9bff4pqbenvvoju3oq.apps.googleusercontent.com"
             render={(renderProps) => (
               <Button
@@ -112,7 +112,7 @@ const SignUp = () => {
             onSuccess={googleSuccess}
             onFailure={googleError}
             cookiePolicy="single_host_origin"
-          />
+          /> */}
           <Grid container justify="flex-end">
             <Grid item>
               <Button onClick={switchMode}>
