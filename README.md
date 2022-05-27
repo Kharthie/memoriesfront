@@ -1,6 +1,6 @@
 # Memories Backend 
 
-[Backend Code]([https://merry-clafoutis-227b38.netlify.app/](https://github.com/Kharthie/memoriesback))
+[Backend Code]((https://github.com/Kharthie/memoriesback))
 
 # Getting Started with Create React App
 
